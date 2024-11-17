@@ -20,3 +20,5 @@ Aqui já temos um array multidimensional onde é formado por **colunas** e **lin
 
 É bom saber a nomentclatura dos mesmos.
 ![Exemplo](./img/Screenshot_39.png)
+
+Nesse exemplo é um item que está no índex linha 0 e coluna 0.
