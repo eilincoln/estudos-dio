@@ -4,7 +4,7 @@ public class escopoDeClasse {
     // Escopo de variável de classe (ou variável de instância)
     // Esta variável é acessível em toda a classe.
     private static int variavelClasse = 10;
-
+ 
     public static void main(String[] args) {
         // Escopo de variável local (dentro do método main)
         // Esta variável existe apenas dentro deste método.
