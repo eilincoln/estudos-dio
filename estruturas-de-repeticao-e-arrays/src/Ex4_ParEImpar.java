@@ -9,6 +9,7 @@ public class Ex4_ParEImpar {
         int numerosImpares = 0;
         int numerosPares = 0;
         
+        
         System.out.print("Quantas vezes o programa vai se repetir: ");
         n = entrada.nextInt();
 
