@@ -9,7 +9,6 @@ public class DownloadDePacotes {
         for(int i = 0; i < tamanho; i++){
             System.out.print("/");
         }
-
         leitor.close();
     }
 }
