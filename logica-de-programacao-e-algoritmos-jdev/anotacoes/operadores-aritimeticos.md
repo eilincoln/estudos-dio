@@ -105,5 +105,3 @@ x += 3; // Equivalente a x = x + 3
 System.out.println(x); // Resultado: 8
 
 ```
-
-Se tiver dúvidas ou quiser ver mais exemplos, é só perguntar! 😊
