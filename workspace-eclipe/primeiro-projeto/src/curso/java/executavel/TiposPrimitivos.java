@@ -13,12 +13,15 @@ public class TiposPrimitivos {
 
 		// 2. short: Armazena números inteiros de tamanho médio (16 bits)
 		short ano = 2024; // Exemplo: -32.768 a 32.767
+		System.out.printf("Estamos no ano: %d\n", ano);
 
 		// 3. int: O tipo inteiro mais comum (32 bits)
 		int populacao = 100000; // Exemplo: -2^31 a 2^31-1
+		System.out.println("Temos a seguinte população: " + populacao);
 
 		// 4. long: Para números inteiros maiores (64 bits)
 		long distanciaEstrelas = 150000000000L; // Exemplo: -2^63 a 2^63-1
+		System.out.println("Distancia: " + distanciaEstrelas);
 		// Note que adicionamos 'L' no final para indicar que é long.
 
 		// 5. float: Armazena números decimais com precisão simples (32 bits)
@@ -29,6 +32,7 @@ public class TiposPrimitivos {
 
 		// 7. char: Armazena um único caractere (16 bits - Unicode)
 		char inicial = 'A'; // Sempre entre aspas simples
+		System.out.println("Inicial do nome dele(a): " + inicial);
 
 		// 8. boolean: Armazena verdadeiro ou falso (1 bit)
 		boolean ativo = true; // true ou false
