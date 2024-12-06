@@ -14,6 +14,6 @@ public class OperacoesLogicas {
 			System.out.println("Aluno não encontrado");
 		}
 		
-		
+		 
 	}
 }
