@@ -9,5 +9,6 @@ public class Import {
 		/*tem coisas que não tem em java a todo momneto, então tenho que importar!*/
 		Date dia = new Date();
 		System.out.println(dia);
+		
 	}
 }
