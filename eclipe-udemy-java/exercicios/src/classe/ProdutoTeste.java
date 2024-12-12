@@ -6,7 +6,7 @@ public class ProdutoTeste { // nome da classe
 		
 		Produto produto1 = new Produto(); // como criar um produto novo
 		produto1.nome = "iPhone 15";
-		produto1.preco = 1500.97;
+		produto1.preco = 1000.00;
 		produto1.desconto = 0.25;
 
 		
@@ -19,7 +19,12 @@ public class ProdutoTeste { // nome da classe
 		System.out.println("O nome do produto 1 é: " + produto1.nome);
 		System.out.println("O nome do produto 2 é: " + produto2.nome);
 		
-		double precoFinal1 = produto1.preco * (1 - produto1.desconto); 
+		double precoFinal1 = produto1.precoComDesconto();
+		
+		double precoFinalComDescontoGerente = produto1.precoComDesconto();
+		System.out.println("Preço com o desconto do gerente: " + precoFinalComDescontoGerente);
+		
+		
 		System.out.printf("Preço do produto 1 com desconto: %.2f\n", precoFinal1);
 	}
 }

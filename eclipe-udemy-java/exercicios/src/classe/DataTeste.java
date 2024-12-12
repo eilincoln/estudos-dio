@@ -14,8 +14,7 @@ public class DataTeste {
 		segundaData.mes = 02;
 		segundaData.ano = 2022;
 		
-		System.out.printf("A primeira data: %d/%d/%d\n", primeiraData.dia, primeiraData.mes, primeiraData.ano);
-		System.out.printf("A segunda data: %d/%d/%d\n", segundaData.dia, segundaData.mes, segundaData.ano);
-
+		System.out.println("A primeira data: " + primeiraData.formatarData());
+		System.out.println("A segunda data: " + segundaData.formatarData());
 	}
 }
