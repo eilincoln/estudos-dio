@@ -9,7 +9,7 @@ public class ProdutoTeste { // nome da classe
 //		produto1.preco = 1000.00;
 //		produto1.desconto = 0.25;
 
-		
+		//criando com um novo objeto!
 		Produto produto2 = new Produto("Notebook", 4356.98, 0.50);
 //		produto2.nome = "Notebook";
 //		produto2.preco = 4356.98;

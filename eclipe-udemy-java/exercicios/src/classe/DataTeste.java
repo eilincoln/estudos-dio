@@ -16,5 +16,11 @@ public class DataTeste {
 		
 		System.out.println("A primeira data: " + primeiraData.formatarData());
 		System.out.println("A segunda data: " + segundaData.formatarData());
+		
+		Data diaTeste = new Data();
+		System.out.println(diaTeste.formatarData());
+		
+		Data diateste2 = new Data(06, 07, 1997);
+		System.out.println("O dia do meu niver é: " + diateste2.formatarData());
 	}
 }
