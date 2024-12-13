@@ -33,6 +33,10 @@ public class ValorVsReferencia {
 		 * */
 		
 		
+		/*
+		 Primitivo sempre será uma cópia e não vai mudar o principal. Não vai gerar mudança. 
+		 Quando é para objeto acaba gerando mudança.
+		 */
 		int c = 5;
 		alterarPrimitivo(c);
 		System.out.println(c);
