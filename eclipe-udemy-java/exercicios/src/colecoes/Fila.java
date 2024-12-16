@@ -28,8 +28,8 @@ public class Fila {
 //		fila.clear();
 //		fila.isEmpty();
 		System.out.println();
-		System.out.println(fila.poll());
-		System.out.println(fila.remove());
+		System.out.println(fila.poll()); //retorna null
+		System.out.println(fila.remove()); // gera uma exceção
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
