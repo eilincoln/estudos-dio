@@ -6,6 +6,12 @@ public class Usuario {
 	public Usuario(String nome) {
 		this.nome = nome;
 	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Meu nome é " + this.nome + ".";
+	}
 
 	@Override
 	public int hashCode() {
