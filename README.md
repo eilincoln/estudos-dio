@@ -6,4 +6,4 @@ Este é meu primeiro repositório criado em parceria com a DIO para documentar m
 
 Sinta-se à vontade para explorar e acompanhar essa trajetória! 🙌 Espero que gostem.
 
-> Bem-vindos!! 😉
+> Bem-vindos!! 😉 Espero que gostem.
