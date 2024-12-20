@@ -1,6 +1,7 @@
 package fundamentos;
 
 public class ObjetosPrimitivos {	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Character c = 'C';
 		Boolean bo = true;
