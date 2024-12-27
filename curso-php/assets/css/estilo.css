@@ -47,9 +47,25 @@ body {
     padding: 20px;
 }
 
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow: scroll;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.25);
+}
+
 .rodape {
     grid-area: rodape;
     background-color: #fff;
     /* position: sticky;
     bottom: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    color: #444;
 }
