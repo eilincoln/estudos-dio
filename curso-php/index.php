@@ -21,7 +21,7 @@
                 <nav class="modulo verde">
                     <h3>Módulo 01</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exercicio.php">Exercício A</a></li>
                         <li><a href="#">Exercício A</a></li>
                         <li><a href="#">Exercício A</a></li>
                     </ul>
@@ -94,7 +94,7 @@
         </div>
     </main>
     <footer class="rodape">
-        Estudos DIO © 2024 
+        Estudos DIO © <?= date('Y');?>
     </footer>
 </body>
 
